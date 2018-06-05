@@ -1,6 +1,7 @@
 <ul class="flex-container">
-  <a routerLink="/"><li class="flex-item">Home</li></a>
-  <a routerLink="/products"><li class="flex-item">Products</li></a>
-  <a routerLink="/"><li class="flex-item">Sorting</li></a>
-  <a routerLink="/"><li class="flex-item">Profile</li></a>
+  <a *ngFor='let menu of menus' routerLink="/{{menu.name}}">
+    <li  class="flex-item">
+      {{menu.name | titlecase}}
+    </li>
+  </a>
 </ul>

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuService } from './menu.service';
+import {Menu} from '../types';
+
 
 @Component({
   selector: 'app-menu',
@@ -6,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
+  menus: Menu[];
 
-  constructor() { }
+  getMenus(): void {
+    this.menuService.myMenus().subscribe(menus => this.menus = menus);
+  }
+  constructor(private menuService: MenuService) { }
 
   ngOnInit() {
+    this.getMenus();
   }
 
 }
