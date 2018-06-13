@@ -1,0 +1,20 @@
+{
+  "heores": [
+    { "id": 11, "name": "Dr. Strange" },
+    { "id": 12, "name": "thor" },
+    { "id": 13, "name": "Hulk" },
+    { "id": 14, "name": "Iron mam" },
+    { "id": 15, "name": "Captain America" },
+    { "id": 16, "name": "Vision" },
+    { "id": 17, "name": "Hawkeye" },
+    { "id": 18, "name": "Black panther "},
+    { "id": 19, "name": "Star lord" },
+    { "id": 20, "name": "Spider man" }
+  ],
+  "menus": [
+    { "id": 1, "name": "home" },
+    { "id": 2, "name": "sortings" },
+    { "id": 3, "name": "profile" },
+    { "id": 4, "name": "products" }
+  ]
+ }
