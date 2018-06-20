@@ -16,5 +16,9 @@
     { "id": 2, "name": "sortings" },
     { "id": 3, "name": "profile" },
     { "id": 4, "name": "products" }
+  ],
+  "products": [
+    { "id": 1, "name": "Screw", "quantity": "4", "image": "assets/uploads/screwdriver.png", "color": "orange", "size": "small", "price": "20" },
+    { "id": 2, "name": "Screwdriver", "quantity": "7", "image": "", "color": "red", "size": "big", "price": "60" }
   ]
  }

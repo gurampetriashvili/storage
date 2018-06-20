@@ -9,7 +9,7 @@ export class ProductsService {
   myUrl = 'http://localhost:3000/';
 
   myMenus(): Observable<any[]>  {
-    return this.http.get<any[]>(this.myUrl + 'menus');
+    return this.http.get<any[]>(this.myUrl + 'products');
   }
 
 

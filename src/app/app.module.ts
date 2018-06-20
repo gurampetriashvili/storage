@@ -10,8 +10,6 @@ import { MenuComponent } from './menu/menu.component';
 import { SortingsComponent } from './sortings/sortings.component';
 import { ProfileComponent } from './profile/profile.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
